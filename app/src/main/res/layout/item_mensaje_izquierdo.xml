@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="290dp"
+    android:layout_height="wrap_content">
+
+    <!--Imagen del perfil del usuario que nos envia un mensaje -->
+    <ImageView
+        android:id="@+id/imagen_perfil_mensaje"
+        android:src="@drawable/ic_perfil_mensaje"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+    <TextView
+        android:id="@+id/txt_ver_mensaje"
+        android:text="@string/txt_ver_mensaje"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:background="@drawable/background_izquierdo"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@+id/imagen_perfil_mensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/imagen_enviada_izquierdo"
+        android:layout_toEndOf="@id/imagen_perfil_mensaje"
+        android:layout_marginStart="5dp"
+        android:visibility="gone"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:id="@+id/txt_mensaje_visto"
+        android:layout_below="@id/txt_ver_mensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>

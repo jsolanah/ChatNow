@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "990360079958",
+    "firebase_url": "https://chatapp-bca07-default-rtdb.firebaseio.com",
+    "project_id": "chatapp-bca07",
+    "storage_bucket": "chatapp-bca07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990360079958:android:97d735aea720fcd40975f7",
+        "android_client_info": {
+          "package_name": "com.jorgesolana.chatnow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990360079958-stm3q39q4m7llqeeagt2l58hh2uofu80.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jorgesolana.chatnow",
+            "certificate_hash": "0eea41550cdfb5fa99bd964d567cbb2dcd4f0581"
+          }
+        },
+        {
+          "client_id": "990360079958-osdhh7gat7cfjcinm4eq6aakq6ucviuu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOZN0CVz8j-qJIwpPMzgV2U2UxVy_wfyM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "990360079958-osdhh7gat7cfjcinm4eq6aakq6ucviuu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
