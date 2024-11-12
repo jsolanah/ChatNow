@@ -275,23 +275,4 @@ class PerfilActivity : AppCompatActivity() {
 
     }
 
-    /*private fun actualizarEstado(estado : String){
-        val reference = FirebaseDatabase.getInstance().reference.child("Usuarios")
-            .child(user!!.uid)
-        val hashMap = HashMap<String, Any>()
-        hashMap["estado"] = estado
-        reference!!.updateChildren(hashMap)
-
-    }
-
-    override fun onResume() {
-        super.onResume()
-        actualizarEstado("online")
-    }
-
-    override fun onPause() {
-        super.onPause()
-        actualizarEstado("offline")
-    }*/
-
 }

@@ -330,7 +330,6 @@ class MensajesActivity : AppCompatActivity() {
                                     })
                                 }
                             }
-                        //Toast.makeText(applicationContext, "La imagen se ha envaido con éxito ", Toast.LENGTH_SHORT).show()
 
                     }
                 }
@@ -361,28 +360,5 @@ class MensajesActivity : AppCompatActivity() {
             else -> super.onOptionsItemSelected(item)
         }
     }
-
-    // Métodos para actualizar el estado del usuario
-    /*private fun actualizarEstado(estado : String){
-        val reference = FirebaseDatabase.getInstance().reference.child("Usuarios")
-            .child(firebaseUser!!.uid)
-        val hashMap = HashMap<String, Any>()
-        hashMap["estado"] = estado
-        reference!!.updateChildren(hashMap)
-    }
-
-    override fun onResume() {
-        super.onResume()
-        actualizarEstado("online")
-    }
-
-    override fun onPause() {
-        super.onPause()
-        reference!!.removeEventListener(seenListener!!)
-        actualizarEstado("offline")
-    }*/
-
-
-
 
 }
