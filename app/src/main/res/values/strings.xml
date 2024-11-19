@@ -23,7 +23,7 @@
     <string name="menu_salir">Cerrar sesion</string>
     <string name="menu_visitar_perfil">Visitar perfil</string>
     <string name="menu_visitar">Visitar perfil</string>
-    <string name="et_buscar_usuario">Buscar usario</string>
+    <string name="et_buscar_usuario">Buscar usuario</string>
     <string name="p_n_usuario">Nombre de usuario</string>
     <string name="p_proveedor_txt">Proveedor: </string>
     <string name="p_proveedor">--</string>
